@@ -1,1 +1,1 @@
-console.log(ferhat);
+console.log("ferhat");
