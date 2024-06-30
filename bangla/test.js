@@ -46,10 +46,22 @@ nkName = "Apon"
 
 // console.log(`hello my name is ${myName} and my repo count`);
 
-let myArr = ["'batman", "superman", "spiderman", "antman", "fatman"]
+let myArr = ["batman", "superman", "spiderman", "antman", "fatman"]
 
 // console.log(myArr[2]);
 
+let marbelHero = ["thor", "ironman", "flash"]
 
+// marbelHero.push(myArr)
 
+// console.log(marbelHero);
+// console.log(marbelHero[3][1]);
 
+// let allHero = marbelHero.concat(myArr)
+// console.log(allHero);
+
+// sprade operator.........
+
+const allHero = [...marbelHero, ...myArr]
+
+// console.log(allHero);
