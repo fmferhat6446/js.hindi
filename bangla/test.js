@@ -65,3 +65,59 @@ let marbelHero = ["thor", "ironman", "flash"]
 const allHero = [...marbelHero, ...myArr]
 
 // console.log(allHero);
+
+// console.log(Array.isArray("ferhat"));
+// console.log(Array.from("ferhat"));
+// console.log(Array.from({name: "ferhat"}));
+
+
+
+
+// object....................
+
+const symble = Symbol("key1")
+
+const JsUser = { 
+  name: "ferhat",
+  age: 18,
+  [symble]: "mykey1",
+
+}
+// const symble = Symbol("key1")....hosting can't work
+
+// console.log(JsUser.name);
+// console.log(JsUser["age"]);
+// console.log(JsUser[symble]);
+
+JsUser.age = 30
+// console.log(JsUser);
+
+// object (+) concat................
+
+const obj1 = {1: "a", 2: "b"}
+const obj2 = {3: "d", 4: "c"}
+const obj4 = {5: "e", 6: "f"}
+
+// const obj3 = { obj1, obj2}
+// const obj3 = Object.assign({}, obj1, obj2, obj4)
+      // {........target value={} , obj12.3.= source}
+
+// const obj3 = {...obj1, ...obj2}
+
+// console.log(obj3);
+
+const navbar = ({company}) => {
+
+}
+
+navbar(company = "ferhat")
+
+// dstacturing.................
+
+
+
+function  myfunction (){
+  console.log("hello world");
+}
+
+myfunction()
