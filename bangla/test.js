@@ -116,8 +116,35 @@ navbar(company = "ferhat")
 
 
 
-function  myfunction (){
-  console.log("hello world");
+// function  myfunction (username){
+//   if (username === undefined) {
+//     console.log("pls enter username");
+//     return
+//   }
+//   return `${username} just logged in`
+// }
+
+// // console.log (myfunction("ferhat"))
+// console.log (myfunction())
+
+
+// rest operator
+function calcularCartPrice(...num1) {
+  return num1
+  
 }
 
-myfunction()
+
+// console.log(calcularCartPrice(200, 300, 500));
+
+const user3 = {
+  username: "ferhat",
+  price: 199
+}
+
+function hndleobjt(anyobjt) {
+  console.log(`username is ${anyobjt.username} and price is ${anyobjt.price}`);
+  
+}
+
+hndleobjt(user3)
