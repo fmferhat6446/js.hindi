@@ -147,4 +147,16 @@ function hndleobjt(anyobjt) {
   
 }
 
-hndleobjt(user3)
+// hndleobjt(user3)
+
+
+// iife..immediately invoked funtion(global polution theke safe korar jonno)
+
+// (function chai() {
+//   console.log(`bd connected`);
+  
+// })();
+
+((name) => {
+  console.log(`bd connected two ${name}`);
+})("ferhat")
